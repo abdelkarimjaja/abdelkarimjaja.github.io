@@ -43,9 +43,7 @@
 
 
        header('Location:../index.html#contact');
-       echo '<script type="text/javascript">
-            document.getElementById("sent-message").innerHTML= "Your message has been sent. Thank you!";
-     </script>';
+       
      } catch (Exception $e) {
        $output = $e->getMessage();
      }
